@@ -13,8 +13,16 @@ public class Ejercicio18 {
         if ((numero.length()<5)&&(0<numero.length())) {
 
             d2 = Integer.parseInt(numero.substring(0, 1));
+           
             d3 = Integer.parseInt(numero.substring(1, 2));
+            
             d4 = Integer.parseInt(numero.substring(2, 3));
+            if (numero.length() == 2) {
+                d2 = 0;
+            }
+            if (numero.length() == 1) {
+                d3 =0;
+            }
             if (numero.length()==3) {
                 d1 = 0;
             }else{
